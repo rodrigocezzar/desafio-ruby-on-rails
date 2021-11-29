@@ -1,0 +1,11 @@
+<h1 class="title">Desafio programação - para vaga desenvolvedor Ruby on Rails _bycoders</h1>
+<div class="box">
+  <%= form_with url: {action: :create}, multipart: true do |f| %>
+    <div class="row">
+    <%= file_field_tag 'archive'%>
+    </div>
+    <div class="row">    
+    <%= button_tag "Upload", type: :submit %>
+    </div>
+  <% end %>
+</div>

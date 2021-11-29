@@ -1,0 +1,66 @@
+// Place all the styles related to the transactions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.header_class {
+  text-align: center;
+}
+
+.header_class h1 {
+  margin: 1em 0 0;
+  letter-spacing: 1px;
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+.box {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0000;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 3em 0;
+}
+
+body {
+  color: #000;
+  background-color: #fff;
+}
+
+.title {
+  margin-left: 300px;
+}
+
+.table1 {
+  margin: 25px;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+  background: #fff;
+}
+
+.table2 {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  margin-bottom: 3em;
+}
+
+.links2 {
+  margin: 10px;
+  margin-left: 700px;
+  width: 100px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+}

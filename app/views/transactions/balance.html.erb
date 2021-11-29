@@ -1,0 +1,21 @@
+<h2 class="table2">Saldo dos Estabelecimentos</h2>   
+  <table class="table2">
+    <tr class="titles">
+      <th>Estabelecimento</th>
+      <th>Proprietário</th>
+      <th>Saldo</th>
+    </tr>
+    <% @test.each do |t| %>
+      <tr>
+        <th><%= t.name %></th>
+        <th><%= t.owner %></th>
+        <th><%= t.balance %></th>
+      </tr>
+    <% end %> 
+  </table>
+  <div class="links2">
+    <%= link_to('Home', root_path) %>
+  </div>
+  <div class="links2">
+    <%= link_to('Transações', transactions_show_path) %> 
+  </div>
